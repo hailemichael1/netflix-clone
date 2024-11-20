@@ -1,8 +1,13 @@
+.row {
+  color: white;
+  margin-left: 20px;
+  /* margin-top: 60px; */
+}
 .row_poster {
   width: 100%;
   object-fit: contain;
   max-height: 100px;
-  /* transition: 300ms; */
+  transition: 300ms;
   transition: transform 450ms;
   margin-right: 10px;
 }
@@ -32,7 +37,3 @@
   transform: scale(1.09);
 }
 
-.row {
-  color: white;
-  margin-left: 20px;
-}
